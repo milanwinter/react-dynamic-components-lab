@@ -10,6 +10,7 @@ export default class ColorBox extends Component {
 
   render() {
     let newValue = this.props.opacity
+    console.log(newValue)
     return (
       
       <div className="color-box" style={{opacity: this.props.opacity}}>
